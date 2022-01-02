@@ -2,6 +2,8 @@
   height: 80px;
   background-color: grey;
   border-radius: 10px;
+  margin: 5px;
+
 }
 
 .padre {
@@ -28,10 +30,11 @@ flex-direction: column;
   flex: 2;
   background-color: grey;
   height: 90px;
-  margin: 5px;
+  margin: 7px;
   border-radius: 10px;
   text-align: center;
   font-size: 60px;
+  margin: 5px;
 }
 
 .fila2 {
@@ -206,7 +209,7 @@ flex-direction: column;
 }
 
   .cero {
-  flex: 2;
+  flex: 6;
   background-color: grey;
   height: 90px;
   margin: 5px;
@@ -215,8 +218,8 @@ flex-direction: column;
   font-size: 60px;
 }
   .igual {
-  flex: 6;
-  background-color: forestgreen;
+  flex: 2;
+  background-color:mediumblue;
   height: 90px;
   margin: 5px;
   border-radius: 10px;
