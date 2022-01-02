@@ -1,5 +1,6 @@
 .result {
   height: 80px;
+  width: 100%;
   background-color: grey;
   border-radius: 10px;
   margin: 5px;
