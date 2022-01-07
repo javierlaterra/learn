@@ -1,22 +1,23 @@
 .result {
   height: 80px;
-  width: 100%;
-  background-color: grey;
+  width: 99%;
+  background-color: rgba(37, 36, 36, 0.726);
   border-radius: 10px;
   margin: 5px;
-
+  font-size: 60px;
+    color: floralwhite;
 }
 
 .padre {
 display: flex;
 flex-direction: column;
-
 }
+
 .fila1 {
   display: flex;
   flex-direction: row;
-
 }
+
 .c {
   flex: 6;
   background-color: forestgreen;
@@ -25,9 +26,9 @@ flex-direction: column;
   border-radius: 10px;
   text-align: center;
   font-size: 60px;
-  
 }
-.dividido {
+
+.dividido  {
   flex: 2;
   background-color: grey;
   height: 90px;
@@ -41,8 +42,8 @@ flex-direction: column;
 .fila2 {
   display: flex;
   flex-direction: row;
-
 }
+
 .siete {
   flex: 2;
   background-color: grey;
@@ -52,6 +53,7 @@ flex-direction: column;
   text-align: center;
   font-size: 60px;
 }
+
 .ocho {
   flex: 2;
   background-color: grey;
@@ -61,6 +63,7 @@ flex-direction: column;
   text-align: center;
   font-size: 60px;
 }
+
 .nueve {
   flex: 2;
   background-color: grey;
@@ -70,6 +73,7 @@ flex-direction: column;
   text-align: center;
   font-size: 60px;
 }
+
 .por {
   flex: 2;
   background-color: grey;
@@ -123,9 +127,9 @@ flex-direction: column;
 .fila3 {
   display: flex;
   flex-direction: row;
+}
 
-}
-.cuatro {
+.cuatro, .cinco{
   flex: 2;
   background-color: grey;
   height: 90px;
@@ -134,15 +138,7 @@ flex-direction: column;
   text-align: center;
   font-size: 60px;
 }
-.cinco {
-  flex: 2;
-  background-color: grey;
-  height: 90px;
-  margin: 5px;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 60px;
-}
+
 .seis {
   flex: 2;
   background-color: grey;
@@ -152,6 +148,7 @@ flex-direction: column;
   text-align: center;
   font-size: 60px;
 }
+
 .menos {
   flex: 2;
   background-color: grey;
@@ -166,35 +163,17 @@ flex-direction: column;
   display: flex;
   flex-direction: row;
 
+}
+.uno, .dos, .tres{
+  flex: 2;
+  background-color: grey;
+  height: 90px;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 60px;
+}
 
-}
-.uno {
-  flex: 2;
-  background-color: grey;
-  height: 90px;
-  margin: 5px;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 60px;
-}
-.dos {
-  flex: 2;
-  background-color: grey;
-  height: 90px;
-  margin: 5px;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 60px;
-}
-.tres {
-  flex: 2;
-  background-color: grey;
-  height: 90px;
-  margin: 5px;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 60px;
-}
 .mas {
   flex: 2;
   background-color: grey;
@@ -209,15 +188,6 @@ flex-direction: column;
   flex-direction: row;
 }
 
-  .cero {
-  flex: 6;
-  background-color: grey;
-  height: 90px;
-  margin: 5px;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 60px;
-}
   .igual {
   flex: 2;
   background-color:mediumblue;
@@ -227,4 +197,15 @@ flex-direction: column;
   text-align: center;
   font-size: 60px;
   
+  }
+  .cero 
+  {
+    flex: 6;
+    background-color: grey;
+    height: 90px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 60px;
+    
   }
