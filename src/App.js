@@ -2,27 +2,29 @@ import React, { useState } from "react";
 import './App.css';
 
 function App() {
-  const [texto, setTexto] = useState("forro");
+  const [texto, setTexto] = useState(true);
 
   const textChange = (event) => {
      setTexto(event.target.value);
   }
 
   const handleClick = () => {
-    setTexto("");
+    setTexto(!texto);
   }
 
   const getTexto = () => {
-    // haces algo aca
-    return texto
+    // if (texto===true) return "verdadero";
+    return texto ? "verdadero" : "falso";
+    // return "falso";
+    
   }
 
   return (
     <div className="App">
-      <input className= "uno" value={texto} onChange={textChange}/>
-      <button onClick={handleClick}>Borrar</button>
+      <input className= "uno" value={getTexto()} onChange={setTexto} />
+      <button onClick={handleClick}>cambiar</button>
       {/* estos dos de abajo son lo mismo */}
-      <p>Texto para mostrar</p>
+      <p>{getTexto()}</p>
     </div>
   );
 }
